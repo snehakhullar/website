@@ -1,0 +1,164 @@
+/* CSS for our CS171 Final Project on Harvard Course Analytics */
+
+body {
+    font-size: 14px;
+    font-family: Helvetica Neue, Arial;
+    text-rendering: optimizeLegibility;
+    margin-top: 1em;
+    overflow-y: scroll;
+    padding-bottom: 50px;
+    background: #000;
+    color: #fff;
+}
+
+#all {
+    width: 1300px;
+}
+
+h1 {
+    font-weight: normal;
+	text-align: center;
+	text-transform:uppercase;
+	font-family: 'Nobile', sans-serif;
+}
+
+#intro {
+	text-align: center;
+	font-weight: bold;
+	position: fixed;
+	top: 35px;
+	left: 250px;
+}
+
+#inst {
+	text-align: center;
+	position: fixed;
+	bottom: 80px;
+	left: 100px;
+	right: 100px;
+}
+
+a {
+    color: steelblue;
+    text-decoration: none;
+	float: left;
+	width: 30%;
+	clear: right;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.link {
+    stroke: #504A4B;
+    stroke-width: 2;
+}
+
+.node {
+    cursor: pointer;
+    stroke: #fff;
+    stroke-width: 1;
+    opacity: 0.8;
+}
+
+/* Legend */
+
+h2 {
+	float: left;
+	width: 30%;
+	clear: right;
+}
+
+#legendItems {
+    margin-top: 20px;
+}
+
+#chart {
+    float: left;
+}
+
+#rightSidebar {
+    float: left;
+    width: 380px;
+    height: 100px;
+    margin-left: 10px;
+}
+
+#legend {
+    float: left;
+    width: 100%;
+    clear: right;
+}
+
+#legend input[type="checkbox"] {
+    display: block;
+    float: left;
+}
+
+#legend .colorBox {
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-left: 5px;
+    margin-right: 20px;
+}
+
+#legend .legendItem {
+    float: left;
+    height: 20px;
+    margin-right: 20px;
+}
+
+#legend .deptName {
+    float: left;
+    width: 90px;
+}
+
+#descriptionContainer {
+    float: left;
+    clear: left;
+    font-size: 90%;
+	text-align:justify;
+}
+
+#subOptions {
+	position: fixed;
+	right: 200px;
+	bottom: 138px;
+}
+
+/* Hover Interactions */
+
+.hoverPopUp {
+    font-size: 14px;
+    text-align: left;
+}
+
+.courseDept {
+    font-weight: bold;
+}
+
+circle.node:hover {
+    stroke: #ff0;
+    stroke-width: 3;
+}
+
+.highlightedNode {
+    stroke: #fff;
+    stroke-width: 3;
+}
+
+.courseTitle {
+    font-weight: bold;
+}
+
+.courseEnrollment {
+    font-weight: bold;
+}
+
+#popupPanel {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}

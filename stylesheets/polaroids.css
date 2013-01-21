@@ -1,0 +1,44 @@
+div#header a img, div#header h4 a { opacity: 1; text-shadow: 0 0 1px rgba(0,0,0,.01); }
+
+div#content a { color: #000; font-weight: bold; }
+div#content a:hover { color: #333; }
+
+div#content h1, div#content h2, div#content h3, div#content h4, div#content h5, div#content h6, div#content p { text-shadow: 0 1px 1px rgba(255,255,255,.5); }
+div#content h1, div#content h2, div#content h3, div#content h4, div#content h5, div#content h6 { color: #62412e; }
+div#content h2 { margin-bottom: 0; }		
+div#content p { font-size: 14px; line-height: 20px; margin-bottom: 20px; color: #584941; }
+div#content p small { display: block; font-size: 12px; line-height: 18px; color: #584941; }
+
+div#footer { padding: 0 0 36px; }
+
+div#pageHeader h1 { font-size: 45px; margin-bottom: 4px; color: #62412e; text-shadow: 0 1px 1px rgba(255,255,255,.5); }
+div#pageHeader p { font-size: 18px; line-height: 24px; margin-right: 25%; margin-bottom: 20px; color: #584941; text-shadow: 0 1px 1px rgba(255,255,255,.5); }
+div#pageHeader p small { font-size: 14px; line-height: 18px; color: #584941; opacity: .75; }
+
+div.zurb.divider { background-image: url(images/playground/zurb-divider.png); }
+
+pre { background: #f5f5f5; margin: 0 0 18px; padding: 13px 18px 14px; -webkit-border-radius: 3px; -moz-border-radius: 3px; text-shadow: 0 1px 1px #fff; font-size: 11px; line-height: 16px; }
+
+/* -------------------------------------------------- */
+
+ul.polaroids { width: 970px; margin: 0 0 18px -30px; }
+ul.polaroids li { display: inline; }
+ul.polaroids a { background: #fff; display: inline; float: left; margin: 0 0 27px 30px; width: auto; padding: 10px 10px 15px; text-align: center; font-family: "Marker Felt", sans-serif; text-decoration: none; color: #333; font-size: 18px; -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.25); -moz-box-shadow: 0 3px 6px rgba(0,0,0,.25); -webkit-transform: rotate(-2deg); -webkit-transition: -webkit-transform .15s linear; -moz-transform: rotate(-2deg); }
+ul.polaroids img { display: block; width: 190px; margin-bottom: 0px; /*margin-bottom: 12px;*/}
+/*ul.polaroids a:after { content: attr(title); }*/
+
+ul.polaroids li:nth-child(even) a { -webkit-transform: rotate(2deg);  -moz-transform: rotate(2deg); }
+ul.polaroids li:nth-child(3n) a { -webkit-transform: none; position: relative; top: -5px;  -moz-transform: none; }
+ul.polaroids li:nth-child(5n) a { -webkit-transform: rotate(5deg); position: relative; right: 5px;  -moz-transform: rotate(5deg); }
+ul.polaroids li:nth-child(8n) a { position: relative; right: 5px; top: 8px; }
+ul.polaroids li:nth-child(11n) a { position: relative; left: -5px; top: 3px; }
+
+ul.polaroids li.messy a { margin-top: -375px; margin-left: 160px; -webkit-transform: rotate(-5deg); -moz-transform: rotate(-5deg); }
+
+ul.polaroids li a:hover { -webkit-transform: scale(1.25); -moz-transform: scale(1.25); -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.5); -moz-box-shadow: 0 3px 6px rgba(0,0,0,.5); position: relative; z-index: 5; }
+
+code { background: rgba(0,0,0,.5); padding: 2px 3px; color: #fff; text-shadow: 0 1px 1px rgba(0,0,0,.75); -webkit-border-radius: 3px; -moz-border-radius: 3px; }
+
+ol.code { background: rgba(0,0,0,.75); margin-bottom: 18px; border: solid rgba(0,0,0,.75); border-width: 1px 1px 0; -webkit-border-radius: 3px; -moz-border-radius: 3px; -webkit-box-shadow: 0 1px 1px rgba(255,255,255,.5); }
+ol.code li, ol.code li code { font-size: 14px !important; }
+ol.code code { background: none; }

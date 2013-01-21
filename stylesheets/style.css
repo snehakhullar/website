@@ -1,0 +1,141 @@
+#featured { background: url(spinner.gif) center center #f4f4f4; height: 397px; }
+#featured img { display: none; }
+
+#featured.orbit { background: none; }
+#featured.orbit img { display: block; }
+
+.title h1 {
+	font-family: 'Shadows Into Light', cursive !important;
+	font-size: 44px;
+	color: orange;
+	margin-bottom: 0px;
+}
+
+.title h3 {
+	margin-left: 20px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+	color: #8e8e8e;
+	text-align: right;
+	padding-top: 25px;
+	padding-right: 10px;
+}
+
+.title h3 a {
+	color: #8e8e8e;
+}
+
+.title h3 a:hover {
+	color: orange;
+}
+
+.title h2 {
+	text-align: right;
+	margin-right: 20px;
+}
+
+.title h2 a {
+	/*font-family: 'Droid Sans', sans-serif;*/
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	color: #d6d6d6;
+	font-weight: normal;
+	text-align: right;
+}	
+
+.title a:hover{
+	color: #8e8e8e;	
+}
+
+.title p{
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+	color: #d6d6d6;
+	font-weight: normal;
+	padding-left: 5px;
+	padding-top: 10px;
+}
+
+.video .columns{
+	padding-left: 20px;
+}
+
+.flex-video { 
+	position: relative;
+	padding-top: 10px; 
+	padding-bottom: 366px; 
+	height: 0;
+	overflow: hidden;
+	border-style:solid;
+	border-width:3px;
+	border-color:orange;
+}
+
+.description h1 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 32px;
+	text-transform: uppercase;
+	font-weight: normal;
+	color: #8e8e8e;
+	text-align:right;
+	margin-top: 0px;
+}
+
+.description p {
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #8e8e8e;
+	text-align:justify;
+	font-weight:lighter;
+}
+
+.description a{
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: orange;
+	text-align:justify;
+	font-weight:lighter;
+}
+
+.description a:hover{
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #d6d6d6;
+	text-align:justify;
+	font-weight:lighter;
+}
+.bottom p{
+	margin-top: 0px;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 12px;
+	color: #8e8e8e;
+}
+
+.bottom hr{
+	margin-bottom: 0px;
+}
+
+.image-box{
+	border: 3px solid orange;
+}
+
+/* Timer over-ride---------------------- */
+div.orbit-wrapper div.timer { width: 40px; height: 40px; overflow: hidden; position: absolute; top: 10px; right: 10px; opacity: .6; cursor: pointer; z-index: 31; }
+
+div.orbit-wrapper span.rotator { display: block; width: 40px; height: 40px; position: absolute; top: 0; left: -20px; background:none no-repeat; z-index: 3; }
+
+div.orbit-wrapper span.mask { display: block; width: 20px; height: 40px; position: absolute; top: 0; right: 0; z-index: 2; overflow: hidden; }
+
+div.orbit-wrapper span.rotator.move { left: 0; }
+
+div.orbit-wrapper span.mask.move { width: 40px; left: 0; background:none repeat 0 0; }
+
+div.orbit-wrapper span.pause { display: block; width: 40px; height: 40px; position: absolute; top: 0; left: 0; background: none no-repeat; z-index: 4; opacity: 0; }
+
+div.orbit-wrapper span.pause.active { background:none no-repeat 0 -40px; }
+
+div.orbit-wrapper div.timer:hover span.pause, div.orbit-wrapper span.pause.active { opacity: 1; }
